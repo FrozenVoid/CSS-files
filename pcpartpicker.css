@@ -1,0 +1,7 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("pcpartpicker.com") {
+  input,.ui-slider-handle{color:green:!important;
+    background-color:white!important;
+  
+    border:1px solid gold!important;}
+}

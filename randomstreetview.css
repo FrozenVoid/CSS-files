@@ -1,0 +1,9 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+/*Space to randomize, wheel to zoom*/
+@-moz-document domain("randomstreetview.com") {
+  div>img,#minimaximize,.gmnoprint,.gmnoscreen,#ad,
+  #adnotice,#controls,#share,
+  #intro_bg1, #intro_bg2, #intro_bg3, #intro_bg4,
+  #address,#map_canvas,#intro{display:none!important;}
+
+}

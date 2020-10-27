@@ -1,1 +1,6 @@
 
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("wikipedia.org") {
+  a.new{border:3px dotted red;}
+}

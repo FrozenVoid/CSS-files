@@ -1,9 +1,10 @@
 /*Change plain link appearance for insecure links: 
 Use to indicate links which are
 Using non-secure connection methods(ftp,http)
-Embed data or direct file links in page.
+Embedded data,script or direct file links in page.
 */
-a[href^="http:"],a[href^="ftp:"],a[href^="file:"],a[href^="data:"]{color:red !important;text-decoration: overline!important;;}
+a[href^="http:"],a[href^="ftp:"],a[href^="file:"],a[href^="data:"],a[href^="javascript:"]{color:red !important;text-decoration: overline!important;;}
 a[href^="http:"]::before,a[href^="ftp:"]::before{content:"Insecure protocol: ";}
 a[href^="data:"]::before{content:"Embedded Data: ";}
 a[href^="file:"]::before{content:"Direct File Link: ";}
+a[href^="javascript:"]::before{content:"Script: ";}

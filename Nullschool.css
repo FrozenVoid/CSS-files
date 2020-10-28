@@ -1,0 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("nullschool.net") {
+  
+  body,#spotlight-panel,#menu *,.earth *{;background-color: transparent!important;color:yellow!important;text-shadow: 2px 2px 2px black;}
+}

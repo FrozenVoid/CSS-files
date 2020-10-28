@@ -1,0 +1,20 @@
+
+/*  Firefox internals
+menu,menupopup
+,body,body>*,body>*>*,
+body>*>*,div[id],div[id]> */
+a{color:lightgreen!important;}
+window,menu,html,body,menupopup,menupopup *,keyset,deck,tooltip,deck {
+  
+  background-color: black!important;;}
+
+
+
+html,html *
+{
+  
+
+  background-color:black!important;; 
+  color:orange!important;;}
+
+

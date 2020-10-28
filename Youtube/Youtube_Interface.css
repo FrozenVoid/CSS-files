@@ -3,6 +3,11 @@
 @-moz-document domain("youtube.com") {
 	#overlays,#overlays *{background-color: transparent!important;font-size:1.0em!important;;color:orange!important;}
 	#masthead-container{position:relative!important;}
+	#items{	counter-reset: cnt;}
+	ytd-compact-video-renderer:after{
+		color:azure;	 	counter-increment: cnt;content: counter(cnt);
+	}
+	
 	
 	ytd-popup-container,ytd-popup-container *,ytd-popup-container.ytd-app{background-color: black!important;z-index:600!important;}
 	yt-icon{transform: scale(2);}

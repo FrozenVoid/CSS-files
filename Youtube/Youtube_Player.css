@@ -1,0 +1,22 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("youtube.com") {
+	span.ytp-caption-segment{ 
+		font-size:2vw!important;
+		color:yellow!important;
+		font-weight:lighter!important;
+    text-shadow: none!important;}
+  /*Fix colors */
+  .ytp-chapter-container,.ytp-title,.ytp-title-link,.ytp-title-fullscreen{line-height: 1.5em !important;}
+  #movie_player,#player,#player *,.ytp-chrome-controls,.ytp-chrome-controls * {background-color: transparent!important;}
+
+
+	.ytp-title,.ytp-title-text,
+	.ytp-chrome-top,
+	.ytp-chrome-controls{
+		text-shadow: 1px 1px  black;;
+		background-color: transparent!important;}
+
+  .ytp-gradient-bottom,.ytp-gradient-top{display: none!important;height:0px!important;}
+  /*fix copy*/
+  ytp-time-display,ytp-time-display *{-moz-user-select:none!important;	}
+}

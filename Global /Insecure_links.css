@@ -3,8 +3,8 @@ Use to indicate links which are
 Using non-secure connection methods(ftp,http)
 Embedded data,script or direct file links in page.
 */
-a[href^="http:"],a[href^="ftp:"],a[href^="file:"],a[href^="data:"],a[href^="javascript:"]:not([href^="javascript:void(0)"]){color:red !important;text-decoration: overline!important;;}
+a[href^="http:"],a[href^="ftp:"],a[href^="file:"],a[href^="data:"],a[href^="javascript:"]:not([href="javascript:void(0)"]):not([href="javascript:void(0);"]){color:red !important;text-decoration: overline!important;;}
 a[href^="http:"]::before,a[href^="ftp:"]::before{content:"Insecure: ";}
 a[href^="data:"]::before{content:"Embedded: ";}
 a[href^="file:"]::before{content:"Local: ";}
-a[href^="javascript:"]:not([href^="javascript:void(0)"])::before{content:"JS: ";}
+a[href^="javascript:"]:not([href="javascript:void(0)"]):not([href="javascript:void(0);"])::before{content:"JS: ";}

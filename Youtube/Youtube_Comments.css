@@ -1,0 +1,16 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+/*Auto expand comments/desc, use all space
+ color-code time,comment border,report button*/
+@-moz-document domain("youtube.com") {
+  #primary,#columns,#content,#description,  ytd-expander,body{margin:0 !important;max-width:100%!important;}
+  /*big textarea*/
+  #contenteditable-root{height:30vw!important;}
+  /*Expand all*/
+  ytd-expander{--ytd-expander-collapsed-height:100%!important;}
+   .more-button, .less-button{display:none!important;}
+  #author-thumbnail,#avatar{display:none!important;}
+  #main{border:2px solid yellow!important;}
+  .published-time-text *{color:red!important;;
+    border:2px dotted red;}
+  #action-menu #button{background-color: darkgreen!important;}
+}

@@ -1,0 +1,27 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("youtube.com") {
+	#overlays,#overlays *{background-color: transparent!important;font-size:1.0em!important;;color:orange!important;}
+	#masthead-container{position:relative!important;}
+	
+	ytd-popup-container,ytd-popup-container *,ytd-popup-container.ytd-app{background-color: black!important;z-index:600!important;}
+	yt-icon{transform: scale(2);}
+	 /*Channel fixes*/
+	input[type="checkbox"],paper-checkbox,#checkbox,#button.yt-button-renderer{color:red !important;border:2px solid white!important;}
+
+	h3.ytd-compact-video-renderer{color:yellow!important;}
+	
+
+	
+
+	
+	.DDytd-rich-shelf-renderer{display:none}
+
+	
+  body,*[id],body>*,body>*>*,a,span.title,span.stat{
+		color:orange!important;background-color: black!important;}
+
+  
+	
+	
+}

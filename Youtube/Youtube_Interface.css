@@ -9,11 +9,7 @@
 	ytd-compact-video-renderer:after{
 		color:azure;	 	counter-increment: cnt;content: counter(cnt);
 	}
-
 	
-	#checkmark{background-color:yellow!important;
-		height:100%!important;
-		width:100%!important;}
 	yt-icon{transform: scale(2);}
 	 /*Channel fixes */
 	

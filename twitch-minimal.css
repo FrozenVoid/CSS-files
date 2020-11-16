@@ -1,0 +1,8 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("twitch.tv") {
+  
+  
+ #sideNav,.top-nav,.stream-chat-header,.channel-leaderboard,[data-a-target="right-column-chat-bar"]{display: none!important;}
+  .channel-root--hold-chat + .persistent-player, .channel-root--watch-chat + .persistent-player, .channel-root__info--with-chat .channel-info-content, .channel-root__player--with-chat{width:100%!important;height:100%!important;}
+}

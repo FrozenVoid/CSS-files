@@ -1,0 +1,8 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("nutritiondata.self.com") {
+  
+  p.foodUrl > *{display:inline!important;}
+  #content,#main,body,table,p.foodUrl *,td.rankList p.foodUrl{width:100%!important;margin:0!important;padding:0!important;
+  } ul.menuaddOptions,tr>td,span#RankInfo,#footerContainer,#ndlogo,#HealthBloggerPromo,#rightrail{display: none}
+}

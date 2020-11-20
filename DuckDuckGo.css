@@ -1,0 +1,10 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("duckduckgo.com") {
+  .header__logo-wrap{display: none!important;}
+  form.header__form,.search--header,#search_form_input_homepage,form.header__form>.search search--header{width:100%!important;}
+  .frm__select{width:40%!important;}
+  
+  .serp__results,.result__body,.result,form,form.header__form,.search--header,.search--header  *,.header.header--html{max-width:100%!important;padding:0!important;margin:0!important;}
+
+}

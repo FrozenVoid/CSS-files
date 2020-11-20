@@ -1,0 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("reuters.com") {
+  nav{position: relative!important;padding-bottom:10vh}
+  .wrap, .container,.col-10,.col-4,section{width:100%!important;}
+}

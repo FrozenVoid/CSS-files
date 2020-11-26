@@ -1,0 +1,5 @@
+input[type="radio"],input[type="checkbox"]{  /* 3-sized Checkboxes */
+ transform: scale(3) !important;
+  border:0.25em solid red !important;
+ margin:0.5em 0.5em 0.5em 0.5em !important;
+}

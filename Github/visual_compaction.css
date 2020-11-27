@@ -4,5 +4,7 @@
 .js-repo-nav>ul>li{max-width:10vw!important;overflow:hidden;
   border:0.1em solid white;}
   .js-repo-nav>ul>li span[data-content]{display:none}
-  li.d-flex>a{transform:scale(2);}
+  li.d-flex>a{transform:scale(2)!important;
+   ;}
+  
 }

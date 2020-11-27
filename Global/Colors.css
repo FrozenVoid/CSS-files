@@ -1,0 +1,20 @@
+
+/*  Firefox internals
+menu,menupopup
+,body,body>*,body>*>*,
+body>*>*,div[id],div[id]> */
+a{color:yellow!important;;}
+window,menu,html,body,menupopup,menupopup *,keyset,div,deck,tooltip,deck, span,p,blockquote{
+  
+ background-color: black!important;
+  ;}
+
+html *{background-color: transparent!important;
+ font-size: calc( 2vw + 1vh )!important;
+  ;;color:orange!important;;}
+
+html,body,window,menupopup
+{  background-color:black!important;; 
+  color:orange!important;;}
+
+

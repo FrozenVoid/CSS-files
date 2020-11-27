@@ -1,0 +1,21 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("github.com") {
+/*scaled tab and file icons, without rext*/
+  
+.js-repo-nav>ul>li{max-width:10vw!important;overflow:hidden;
+}
+  .js-repo-nav>ul>li span[data-content]{display:none}
+  li.d-flex>a,.btn-octicon{
+    transform:scale(2)!important;
+      border:0.1em solid aqua;
+      margin-bottom:1em!important;}
+  li.d-flex>a[data-tab-item="pull-requests-tab"]>span[title]{transform:scale(0.5) !important;
+  margin-left:-1vw!important;padding:0!important;
+    text-decoration: overline!important;
+  color:red!important;}
+   li.d-flex>a[data-tab-item="issues-tab"]>span[title]{transform:scale(0.5) !important;
+  margin-left:-1vw!important;padding:0!important;
+    text-decoration: overline!important;
+     color:yellow!important;}
+  
+}

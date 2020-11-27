@@ -6,6 +6,8 @@
   background-color: transparent!important;}
   main>*,.offset-lg-1{margin:0!important;max-width:100%!important;width:100%!important;}
   .col-md-3{margin-left:10vw!important;}
+  .js-repo-nav>ul>li{max-width:10vw!important;overflow:hidden;
+    border:3px solid white;}
   .form-control, .form-select,input,p, div, span, td, tr, table,div,.bg-gray-light,.text-gray,.muted-link,.text-gray-light,.text-gray-dark,.bg-white,.link-gray,.link-gray-dark{background-color: black!important;color:orange!important;}
  
   /*expand to maximize area*/

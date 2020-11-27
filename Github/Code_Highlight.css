@@ -1,6 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("github.com") {
   td.blob-code{background-color: black!important;
+    color:orange!important;
   line-height: 1.5em!important;}
   .pl-c{color:lightgrey!important}
   .pl-kos{color:lightcoral !important;}

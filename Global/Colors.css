@@ -15,6 +15,7 @@ html *{background-color: transparent!important;
 
 html,body,window,menupopup
 {  background-color:black!important;; 
+  background:none!important;
   color:orange!important;;}
 
 

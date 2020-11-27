@@ -1,0 +1,8 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("github.com") {
+  .flex-shrink-0.col-md-3{margin-left:10vw!important;}
+.js-repo-nav>ul>li{max-width:10vw!important;overflow:hidden;
+  border:0.1em solid white;}
+  .js-repo-nav>ul>li span[data-content]{display:none}
+  li.d-flex>a{transform:scale(2);}
+}

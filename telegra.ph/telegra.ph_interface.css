@@ -1,0 +1,8 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("telegra.ph") {  
+  .tl_page_wrap{max-width:none!important;}
+  [data-label='Title']{border:2px dashed white}
+  [data-label='Author']{border:2px dotted red}
+  .ql-editor>p{border:2px solid green}
+}

@@ -1,20 +1,50 @@
+@-moz-document url-prefix("http:"),
+  url-prefix("https:"), url-prefix("about") {
+@-moz-document url-prefix("http:"),
+  url-prefix("https:"), url-prefix("about") 
+
 
 /*  Firefox internals
 menu,menupopup
 ,body,body>*,body>*>*,
-body>*>*,div[id],div[id]> */
+body>*>*,div[id],div[id]> ,menupopup*/
 a{color:yellow!important;;}
+
+
+ *{background-color: black!important;
+ font-size: 0.7cm !important;
+   line-height: 1cm!important;
+  ;;color:orange!important;;}
 window,menu,html,body,menupopup,menupopup *,keyset,div,deck,tooltip,deck, span,p,blockquote{
   
  background-color: black!important;
   ;}
- *{background-color: transparent!important;
- font-size:  2vw !important;
-  ;;color:orange!important;;}
-
 html,body,window,menupopup
 {  background-color:black!important;; 
   background:none!important;
   color:orange!important;;}
+}
+
+
+/*  Firefox internals
+menu,menupopup
+,body,body>*,body>*>*,
+body>*>*,div[id],div[id]> ,menupopup*/
+a{color:yellow!important;;}
+
+
+ *{background-color: black!important;
+ font-size: 0.7cm !important;
+   line-height: 1cm!important;
+  ;;color:orange!important;;}
+window,menu,html,body,menupopup,menupopup *,keyset,div,deck,tooltip,deck, span,p,blockquote{
+  
+ background-color: black!important;
+  ;}
+html,body,window,menupopup
+{  background-color:black!important;; 
+  background:none!important;
+  color:orange!important;;}
+}
 
 

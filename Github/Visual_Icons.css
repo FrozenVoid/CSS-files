@@ -9,13 +9,11 @@
     transform:scale(2)!important;
       border:0.1em solid aqua;
       margin-bottom:1em!important;}
-  li.d-flex>a[data-tab-item="pull-requests-tab"]>span[title]{transform:scale(0.5) !important;
+  li.d-flex>a[data-tab-item]>span[title]{transform:scale(0.5) !important;
   margin-left:-1vw!important;padding:0!important;
     text-decoration: overline!important;
   color:red!important;}
-   li.d-flex>a[data-tab-item="issues-tab"]>span[title]{transform:scale(0.5) !important;
-  margin-left:-1vw!important;padding:0!important;
-    text-decoration: overline!important;
+   li.d-flex>a[data-tab-item="issues-tab"]>span[title]{
      color:yellow!important;}
   
 }

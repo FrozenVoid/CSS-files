@@ -5,15 +5,15 @@
 .js-repo-nav>ul>li{max-width:10vw!important;overflow:hidden;
 }
   .js-repo-nav>ul>li span[data-content]{display:none}
-  li.d-flex>a,.btn-octicon{
+    .UnderlineNav-body>li.d-flex>a,.inline-form>.btn-octicon{
     transform:scale(2)!important;
       border:0.1em solid aqua;
       margin-bottom:1em!important;}
-  li.d-flex>a[data-tab-item]>span[title]{transform:scale(0.5) !important;
+  .UnderlineNav-body>li.d-flex>a[data-tab-item]>span[title]{transform:scale(0.5) !important;
   margin-left:-1vw!important;padding:0!important;
     text-decoration: overline!important;
   color:red!important;}
-   li.d-flex>a[data-tab-item="issues-tab"]>span[title]{
+   .UnderlineNav-body> li.d-flex>a[data-tab-item="issues-tab"]>span[title]{
      color:yellow!important;}
   
 }

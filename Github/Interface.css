@@ -1,13 +1,13 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("github.com") {
- details-menu,.file-navigation,#branch-select-menu,.position-sticky,.position-sticky >*,.position-relative{overflow:visible!important;
+ details-menu,.p-responsive,.file-navigation,#branch-select-menu,.position-sticky,.position-sticky >*,.position-relative{overflow:visible!important;
 	 width:100%!important;;max-width:100%!important;padding:0!important;margin:0!important;
 	 border:0!important;
 	   background-color: transparent!important;
 	}
 	
 	
-	
+	#branch-select-menu3{width:100vw!important;}
  textarea,.CodeMirror-scroll,.commit-form,.container,#branch-select-menu,#branch-select-menu>*,#branch-select-menu>*>*, main>*,.offset-lg-1,.comment-holder,.SelectMenu-modal, .inline-comments .inline-comment-form, .inline-comments .inline-comment-form-container,.flex-column{margin:0!important;max-width:100%!important;
 		width:100%!important;}
 	.d-flex{max-width:100%!important;}

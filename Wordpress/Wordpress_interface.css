@@ -1,0 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("wordpress.com") {
+	#access .menu-header, div.menu, #colophon, #branding, #main, #wrapper{
+	width:100%!important;}
+}

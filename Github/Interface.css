@@ -1,20 +1,12 @@
 @namespace url(http://www.w3.org/1999/xhtml);
-
 @-moz-document domain("github.com") {
-
- #branch-select-menu, .css-truncate,#branch-select-menu  .css-truncate-target{overflow:visible!important;width:100%!important;;max-width:100%!important;
+ #branch-select-menu,.position-sticky,.position-sticky >*, .css-truncate,#branch-select-menu  .css-truncate-target{overflow:visible!important;width:100%!important;;max-width:100%!important;padding:0!important;margin:0!important;
   background-color: transparent!important;}
 
   main>*,.offset-lg-1,.comment-holder,.SelectMenu-modal, .inline-comments .inline-comment-form, .inline-comments .inline-comment-form-container,.flex-column,.d-flex{margin:0!important;max-width:100%!important;
-	
 		width:100%!important;}
   .flex-shrink-0.col-md-3{margin-left:10vw!important;}
-   .form-control, .form-select,input,p, div, span, td, tr, table,div,.bg-gray-light,.text-gray,.muted-link,.text-gray-light,.text-gray-dark,.bg-white,.link-gray,.link-gray-dark{background-color: black!important;color:orange!important;}
+   
  
- 
-textarea,.CodeMirror-scroll,.commit-form,.container,#branch-select-menu,#branch-select-menu>*,#branch-select-menu>*>*{min-width:100%!important;:100%!important;}
-  
- 
- 
-
+textarea,.CodeMirror-scroll,.commit-form,.container,#branch-select-menu,#branch-select-menu>*,#branch-select-menu>*>*{min-width:100%!important;width:100%!important;}
 }

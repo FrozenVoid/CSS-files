@@ -1,5 +1,4 @@
-@-moz-document url-prefix("http:"),
-  url-prefix("https:"), url-prefix("about") {
+
 
 
 /*  Firefox internals
@@ -9,11 +8,11 @@ body>*>*,div[id],div[id]> ,menupopup*/
 a{color:yellow!important;;}
 
 
- *{background-color: black!important;
+ *{background-color: transparent!important;
  font-size: 0.7cm !important;
-   line-height: 1cm!important;
+   line-height: 0.9cm!important;
   ;;color:orange!important;;}
-window,menu,html,body,menupopup,menupopup *,keyset,div,deck,tooltip,deck, span,p,blockquote{
+window,menu,html,body,menupopup,menupopup *,keyset,div,deck,deck, span,p,blockquote{
   
  background-color: black!important;
   ;}
@@ -21,4 +20,4 @@ html,body,window,menupopup
 {  background-color:black!important;; 
   background:none!important;
   color:orange!important;;}
-}
+

@@ -1,0 +1,8 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("github.com") {
+.form-control, .form-select,input,p, div, span, td, tr, table,
+	div,.bg-gray-light,.text-gray,.muted-link,.text-gray-light,
+	.text-gray-dark,.bg-white,.link-gray,.link-gray-dark
+	{background-color: black!important;color:orange!important;}
+}

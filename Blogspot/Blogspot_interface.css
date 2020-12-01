@@ -1,0 +1,5 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("blogspot.com") {
+	.content-outer, .content-fauxcolumn-outer, .region-inner{max-width:100%!important;}
+}

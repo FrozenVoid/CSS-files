@@ -4,5 +4,5 @@
  .css-truncate,.css-truncate.css-truncate-overflow, .css-truncate .css-truncate-overflow,.css-truncate.css-truncate-target, .css-truncate .css-truncate-target{
 	overflow: visible!important;	
 	}
-	summary.btn{overflow:hidden!	important;}
+	summary.btn, .css-truncate.width-fit{overflow:hidden!	important;}
 }

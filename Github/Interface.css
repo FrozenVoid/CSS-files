@@ -1,6 +1,6 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("github.com") {
- #branch-select-menu,.position-sticky,.position-sticky >*{overflow:visible!important;
+ #branch-select-menu,.position-sticky,.position-sticky >*,.position-relative{overflow:visible!important;
 	 width:100%!important;;max-width:100%!important;padding:0!important;margin:0!important;
 	   background-color: transparent!important;
 	}

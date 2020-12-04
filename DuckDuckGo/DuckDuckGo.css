@@ -2,9 +2,13 @@
 
 @-moz-document domain("duckduckgo.com") {
   .header__logo-wrap{display: none!important;}
-  form.header__form,.search--header,#search_form_input_homepage,form.header__form>.search search--header{width:100%!important;}
+ 
+	form.header__form,.search--header,#search_form_input_homepage,form.header__form>.search search--header{width:100%!important;}
   .frm__select{width:40%!important;}
 
-  .serp__results,.result__body,.result,form,form.header__form,.search--header,.search--header  *,.header.header--html{max-width:100%!important;padding:0!important;margin:1!important;}
+  .serp__results,.results--main,.result__body,.result,form,form.header__form,.search--header,.search--header  *,#web_content_wrapper *,.header.header--html{max-width:100%!important;padding:0!important;;}
 
+.c-info,.c-base,.c-icon,.c-list,.c-product,.c-detail,.zci__main.has-aux,.zci__main--answer,.results--main,.forecast-wrapper .module--forecast .module__detail--hours__labels,.zcm-wrap--header {
+	max-width:none!important;width:100%!important;
+	}
 }

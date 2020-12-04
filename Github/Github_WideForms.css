@@ -1,0 +1,7 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("github.com") {
+	.clearfix,.container-xl,.container-lg{margin:0!important;max-width:100%!important;
+		width:100%!important;}
+	textarea{height:30vw!important;}
+}

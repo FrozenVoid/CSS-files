@@ -1,8 +1,12 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("wolframalpha.com") {
-	img[alt*="knowledge AI"],a[href*="/pricing"],a[href*="/feedback"],a[href*="premium"],a[href*="/?adref"],footer,header>nav,
+	img[alt*="knowledge AI"],img[src*="/static/"],a[href*="/pricing"],a[href*="/feedback"],a[href*="premium"],a[href*="/?adref"],footer,noscript,header>nav,
 	main p>a{display:none!important;}
-	main>div:nth-child(3)>div:nth-child(1)>div:nth-child(2){width:100vw!important;}
-	*{max-width:none!important;margin:0!important;padding:0!important;}
+	form input,main>div:nth-child(3)>div:nth-child(1)>div:nth-child(2){width:100vw!important;}
+	
+		
+	*{max-width:none!important;
+		max-height:none!important;
+	margin:0!important;padding:0!important;}
 }

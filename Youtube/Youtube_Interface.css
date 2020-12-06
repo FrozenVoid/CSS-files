@@ -13,7 +13,7 @@
 	
 	yt-icon{transform: scale(2);}
 	 /*Channel fixes */
-	
+	#top-level-buttons{margin-top:-10vh}
 	h3.ytd-compact-video-renderer{color:yellow!important;}
 	paper-dialog{background-color:black!important;}
 

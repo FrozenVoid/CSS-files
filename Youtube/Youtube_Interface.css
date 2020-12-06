@@ -1,8 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("youtube.com") {
-	#button[aria-pressed="true"]{transform:scale(0.5)!important;;}
-	#button>yt-icon{transform:scale(2);}
+	
 	#overlays,#overlays *{
 		background-color: transparent!important;font-size:1.0em!important;;color:orange!important;}
 	#masthead-container{position:relative!important;}
@@ -10,10 +9,9 @@
 	ytd-compact-video-renderer:after{
 		color:azure;	 	counter-increment: cnt;content: counter(cnt);
 	}
+	/*Channel fixes */ 
+	#page-manager{margin-top:0vh!important;}
 	
-	yt-icon{transform: scale(2);}
-	 /*Channel fixes */
-	#top-level-buttons{margin-top:-10vh}
 	h3.ytd-compact-video-renderer{color:yellow!important;}
 	paper-dialog{background-color:black!important;}
 

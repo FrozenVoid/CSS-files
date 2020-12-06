@@ -5,19 +5,23 @@
 menu,menupopup
 ,body,body>*,body>*>*,
 body>*>*,div[id],div[id]> ,menupopup*/
-a{color:yellow!important;;}
+a{color:yellow!important;
+	background-color: black!important;;}
 
 
- *{background-color: transparent!important;
+ *{background-color: black!important;
  font-size: 0.7cm !important;
+	 --bg-gradient:black!important;
    line-height: 0.9cm!important;
   ;;color:orange!important;;}
-window,menu,html,body,menupopup,menupopup *,keyset,div,deck,deck, span,p,blockquote{
-  
+window,menu,html,tree,treechildren,body,menupopup,menupopup *,keyset,div,deck,deck *, span,p,blockquote{
+  --bg-gradient:black!important;
  background-color: black!important;
+	color:orange!important;
   ;}
 html,body,window,menupopup
 {  background-color:black!important;; 
   background:none!important;
   color:orange!important;;}
+
 

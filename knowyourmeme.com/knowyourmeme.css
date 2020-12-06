@@ -1,5 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("knowyourmeme.com") {
-	body>*,.wrap{width:100%!important;}
+	body>*,.wrap,#maru{width:100vw!important;max-width:100%!important;}
+	div.floating-fixed{position:static!important;}
+	center img,#entry_body .bodycopy :first-child img, #entry_body .bodycopy :first-child object, #entry_body .bodycopy :first-child embed, #entry_body .bodycopy :first-child iframe{;max-height:none!important;width:100%!important;max-width:100%!important;}
 }

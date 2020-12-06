@@ -3,10 +3,8 @@
 @-moz-document domain("youtube.com") {
 #container.ytd-video-primary-info-renderer>.title{overflow:hidden!important;height:1em!important;}
 	
-	.ytd-video-primary-info-renderer *{
-		background-color:transparent!important; }
-	.ytd-video-primary-info-renderer #top-level-buttons{margin-top:
-		-9vh!important;opacity:0.75}
+		.ytd-video-primary-info-renderer #top-level-buttons{margin-top:
+		-9vh!important;border:0.2vh solid green;}
 	#button[aria-pressed="true"]{transform:scale(0.5)!important;;}
 	#button>yt-icon,yt-icon{transform:scale(2);}
 	

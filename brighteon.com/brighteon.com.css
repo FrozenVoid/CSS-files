@@ -1,0 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("brighteon.com") {
+	.overlay,#statusmessagediv,#MastheadShop,.logo{display: none!important;}
+	.container__main,body{max-width:none!important;overflow:scroll!important;}
+}

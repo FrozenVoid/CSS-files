@@ -1,5 +1,5 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
-	details-menu.dropdown-menu,.SelectMenu-modal,#branch-select-menu,details-dialog{width:40vw!important;max-width:none!important;max-height:none!important;}
+	details-menu.dropdown-menu,.SelectMenu-modal,#branch-select-menu,details-dialog{width:100%!important;max-width:none!important;max-height:none!important;}
 }

@@ -1,0 +1,13 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("thefederalist.com") {
+		
+	*{background:none!important;color:orange!important;background-color: black!important;}
+	
+	
+	.listing-container>*,.featured-frame,.featured-frame *,.mp-widget,.mp-widget *,article,section,.mostpop-page-widget,.auth-left-listing,.auth-leftcol.clearfix,.entry-content.clearfix,.blog-landing-wrapper,.container,.right-listing p,body.page,body,.mp-widget-listing a,.widget-wrapper,.mp-widget-listing{
+		color:orange!important;background-color: black!important;
+		margin:0!important;overflow: visible!important;padding:0!important;}
+	
+	
+}

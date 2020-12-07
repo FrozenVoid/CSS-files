@@ -1,0 +1,10 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("thefederalist.com") {
+	.header-logo,.featured-top,#branding,.post-image-wrapper,#featured-podcast,.featured-bottom,article>.post-featured-image,.post-cat,#iframe{display:none!important;}
+	.auth-left-listing,.mp-widget-listing,.most-pop-widget,.listing-rightcol-wrapper,.listing-rightcol-wrapper>*,.featured-frame{width:100%!important;}
+	.listing-container,.widget-frame.container,.most-pop-widget,.right-listing,.clearfix,.mostpop-page-widget,
+	.container,section,#main,article,.aside-pos-fix,.entry-content{
+		margin:0!important;overflow: visible!important;padding:0!important;
+		max-width:none!important;width:100%!important;border:0!important;}
+}

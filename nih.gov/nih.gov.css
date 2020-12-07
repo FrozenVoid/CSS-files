@@ -1,0 +1,12 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("nih.gov") {
+	#feedback-button{background-color: transparent!important;height: 4vh!important;;}
+	.article-top-actions-bar .multiple-results-actions{flex-grow:0!important}
+	#ncov-alert-from-server,.homepage,.banner,.agencies{display: none!important;}
+	.page-sidebar,.page-sidebar *{background-color: transparent!important;float:none!important;display:inline!important;}
+	
+	#article-page,#article-page >*>*,#article-details{padding:0!important;margin:0!important;;width:100%!important;}
+	
+	main,body,.search-form > .inner-wrap,.inner-wrap,.search-form .search-input,.search-form.content-page-layout .search-input, .search-form.content-page-layout .search-links-wrapper{height:auto!important;;margin:0!important;;padding:0!important;max-width: none!important;width:100%!important;}
+}

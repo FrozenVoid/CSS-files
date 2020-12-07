@@ -1,5 +1,6 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("politico.com") {
-body,body div,.container__column,.container__column *{display:block!important;width:100%!important;max-width:none!important;}
+body,body div,.container__column,.container__column *{display:block!important;margin: 0!important;
+	width:100%!important;max-width:none!important;}
 }

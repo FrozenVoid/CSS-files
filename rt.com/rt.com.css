@@ -1,0 +1,7 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("rt.com") {
+	#layout__header,	#layout__header *{position:relative!	important}
+	*{background:none!important;max-width:none!important;
+	;}
+}

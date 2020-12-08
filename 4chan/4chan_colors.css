@@ -4,7 +4,8 @@
     domain("4channel.org") {
 			blockquote,.post, span.subject{color:orange!important;background-color:black!important;}
 	body {;background-color: black!important;	background: none !important	}		
-			
+			.post{border-bottom:0.25vw solid green!important;
+			!important}
 	div#post-menu.dd-menu>ul,
         #post-menu>ul>li,		
 			span.posteruid>.hand::hover,.posteruid .hand:hover ,div.backlink a,div.backlink>span>a,.backlink a,.burichan_new .backlink a, .yotsuba_b_new .backlink a,.replylink,a.replylink:not(:hover){color:yellow!important;;;background-color:black!important;}

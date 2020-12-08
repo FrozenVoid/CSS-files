@@ -1,0 +1,24 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document  domain("4chan.org"),
+    domain("4channel.org") {
+			#threads{margin:0!important;padding:0!important;}
+			
+			body.is_catalog>#content>#threads>div.thread>.meta{float:left!important;
+			border:0.25vw dotted red;margin-right:5vw!important;}
+			#threads>div.thread>a::before {
+				float:right!important;margin-right:10vw!important;
+    		display:inline!important;content: "»»";/*allows clicking empty links*/
+			}
+			body.is_catalog>#content>#threads>* {
+			width:100vw!important;
+				border-top:0.5vh solid red;
+					max-height: 100%!important;
+				margin:0!important;
+			padding:0!important;}
+body.is_catalog>#content>#threads>div.thread>a
+>img.thumb{
+    width:25vw!important;float:left!important;
+    max-height:none!important;
+	;}
+}

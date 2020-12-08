@@ -1,0 +1,14 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("4chan.org"),
+    domain("4channel.org") {
+			blockquote,.post, span.subject{color:orange!important;background-color:black!important;}
+	body {	background: none !important	}		
+			div.backlink a,div.backlink>span>a,.backlink a,.burichan_new .backlink a, .yotsuba_b_new .backlink a,.replylink,a.replylink:not(:hover){color:yellow!important}
+			a.quotelink{color:red!important}
+		img {
+    		opacity: 1.0 !important;
+            background-color: black!important;
+			}	
+			
+}

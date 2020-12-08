@@ -2,8 +2,8 @@
 @-moz-document domain("proxysite.com") {
 	#server-options{height:2em!important;width:5em!important;}
 	#include-form, #holder,#include #form-holder,#include #holder{max-width: none!important;width:100%!important;}
-	#include,#psc_hideForm,html,body,body *{
-		background: none!important;background-color: black!important;}
+	#include,#psc_hideForm,html,body,body *,#include .url-text{
+		background: none!important;background-color: black!important;color:orange!important;}
   #include{position:relative!important;}
  	#logo-holder,#psc_report-button,#psc_hideForm{display:none!important;}
 }

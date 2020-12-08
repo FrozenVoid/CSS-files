@@ -3,7 +3,7 @@
 @-moz-document  domain("4chan.org"),
     domain("4channel.org") {
 		a.fileThumb,	div.file,div.file.video{float:left!important}
-
+			img.countryFlag,img.extButton{width:5vw!important;height:auto!important;}
     	div.image-expanded>img,	div.image-expanded,video.expandedWebm {
     		max-width: 100vw!important;
 				max-height:100vh!important;

@@ -5,5 +5,6 @@
 	#include,#psc_hideForm,html,body,body *,#include .url-text{
 		background: none!important;background-color: black!important;color:orange!important;}
   #include{position:relative!important;}
- 	#logo-holder,#psc_report-button,#psc_hideForm{display:none!important;}
+ 	#logo-holder,#psc_report-button,#psc_hideForm,#footer,#header,html>body>div>#main>*:not(.visual ) *,html>body>div>#main>.visual>*:not(.area ),
+	html>body>div>#main>.visual>.area >*:not(.wrap ),html>body>div>#main>.visual>.area >.wrap >*:not(.url-form ){display:none!important;}
 }

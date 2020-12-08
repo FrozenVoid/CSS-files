@@ -1,0 +1,15 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("4chan.org"),domain("4channel.org"){
+.flag {
+    		width: 10% !important;
+    		pointer-events: none!important;
+    		white-space: nowrap !important;
+    		background-image: none !important;
+    		display: inline !important;
+    		background: none !important;
+    	}
+    	.flag::after {/*use title of flag instead of flag*/
+    		content: attr(title);
+	}
+}

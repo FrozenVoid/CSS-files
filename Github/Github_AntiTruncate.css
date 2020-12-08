@@ -4,8 +4,9 @@
  .css-truncate,.css-truncate.css-truncate-overflow, .css-truncate .css-truncate-overflow,.css-truncate.css-truncate-target, .css-truncate .css-truncate-target{
 	overflow: visible!important;width:auto!important;	
 	}
-	.Box-row >.col-md-2,.Box-row >.col-md-2 a{color:cyan!important;background-color: black!important;}
-	.Box-row >*:not(.col-md-2){;z-index:-10;margin:0!important;padding:0!important;width:auto!important;}
-	summary.btn, .css-truncate.width-fit{overflow:hidden!	important;
+	.Box-row >.col-md-2,.Box-row >.col-md-2 a{color:cyan!important;background-color: black!important;max-width:25vw!important;}
+	.Box-row >*:not(.col-md-2){max-width:25vw!important;;;margin:0!important;padding:0!important;width:auto!important;}
+	summary.btn, .css-truncate.width-fit{
+		overflow:hidden!	important;
 	width:auto!important;display:inline!important;}
 }

@@ -11,7 +11,7 @@
 	.comment,.default,.athing{float:left;max-width:95%!important;width:95%!important}
 	.comment .commtext{width:100%!important;white-space:pre-wrap!important;}
 	.default,.comment-tree,body,tr.athing{
-	margin: 0.25vw 0.25vw 0.25vw 0.25vw!important;	max-width:100vw!important;border:2px solid red;
+	margin: 0.25vw 0.25vw 0.25vw 0.25vw!important;	max-width:100vw!important;border-top:2px solid red;
 		width:100%!important;}
 	
 }

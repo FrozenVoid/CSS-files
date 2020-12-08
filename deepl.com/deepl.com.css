@@ -1,0 +1,8 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("deepl.com") {
+	.lmt_quotes,#dl_cookieBanner,.dl_header{display:none!important;}
+	.dl_translator_page_container,.dl_translator_page_container >*,.lmt__sides_container{margin:0!important;max-height:none!important;height:auto!important;
+		padding: 0!important;;width:100vw!important;}
+	html,body[class],body.dl_body--translator.dl_body--redesign,body.dl_body--redesign,body *,.dl_header,.dl_footer,.dl_body{background-color: black!important;}
+}

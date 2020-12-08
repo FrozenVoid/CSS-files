@@ -4,8 +4,8 @@
     domain("4channel.org") {
      	div.adg-rects, div[style*="728px"],
         .boardBanner, img.desktop,
-    .sideArrows, .party-hat,#globalToggle, #globalMessage,
-        div.closed, #blotter, .postInfoM,
+    .sideArrows, .party-hat,#globalToggle,#toggleMsgBtn, #globalMessage,
+        div.closed, #blotter,.adc-resp-bg, .postInfoM,
     .topad, #absbot, .middlead, .abovePostForm,
         .ad-plea, 
     hr.abovePostForm+div.center, div.ad-plea-top {
@@ -13,6 +13,7 @@
 			}
 			
 			#postForm,textarea{width:100%!important}
-			
+			#search-box{width:60vw!important;
+			height:2em!important;	line-height:2em!important;}
 			#postForm *{width:auto!important}
 }

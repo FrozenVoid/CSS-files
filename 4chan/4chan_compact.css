@@ -4,13 +4,14 @@
     domain("4channel.org") {
      	div.adg-rects, div[style*="728px"],
         .boardBanner, img.desktop,
-    .sideArrows, .party-hat, #globalMessage,
+    .sideArrows, .party-hat,#globalToggle, #globalMessage,
         div.closed, #blotter, 
     .topad, #absbot, .middlead, .abovePostForm,
         .ad-plea, 
     hr.abovePostForm+div.center, div.ad-plea-top {
-    		display: none !important
+    		display: none !important;
 			}
+			
 			#postForm,textarea{width:100%!important}
 			
 			#postForm *{width:auto!important}

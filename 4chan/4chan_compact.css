@@ -16,4 +16,8 @@
 			#search-box{width:60vw!important;
 			height:2em!important;	line-height:2em!important;}
 			#postForm *{width:auto!important}
+			div.panel,.UIPanel > div,.extPanel{background-color: black!important;left:0!important;right:0!important;
+			;border:0.25vw solid yellow;width:90%!important;
+				max-height:90vh!important;
+				margin:0!important;}
 }

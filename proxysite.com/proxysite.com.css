@@ -1,10 +1,12 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("proxysite.com") {
 	#server-options{height:2em!important;width:5em!important;}
+	
 	#include-form, #holder,#include #form-holder,#include #holder{max-width: none!important;width:100%!important;}
-	#include,#psc_hideForm,html,body,body *,#include .url-text{
-		background: none!important;background-color: black!important;color:orange!important;}
-  #include{position:relative!important;}
- 	#logo-holder,#psc_report-button,#psc_hideForm,#footer,#header,html>body>div>#main>*:not(.visual ) *,html>body>div>#main>.visual>*:not(.area ),
+	
+	#include,#url-form-wrap,#include .url-text{
+	background: none!important;background-color: black!important;color:orange!important;}
+  
+ html>body>#include>#holder>	#logo-holder,html>body>#psc_report-button,html>body>#psc_hideForm,html>body>div>#footer,html>body>div>#header,html>body>div>#main>*:not(.visual ) *,html>body>div>#main>.visual>*:not(.area ),
 	html>body>div>#main>.visual>.area >*:not(.wrap ),html>body>div>#main>.visual>.area >.wrap >*:not(.url-form ){display:none!important;}
 }

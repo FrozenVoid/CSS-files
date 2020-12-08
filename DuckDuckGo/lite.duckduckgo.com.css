@@ -1,0 +1,9 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("lite.duckduckgo.com") {
+	.extra,body>.header{display: none!important;}
+	.filters>select,.submit{width:30%!important;display: inline!important;}
+	.query,body,form{max-width:100%!important;width:100%!important;margin:0!important;padding:0!important;;}
+	
+	td:empty,td[valign='top']{max-width:0.1vw!important;}
+}

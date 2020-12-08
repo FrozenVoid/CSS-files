@@ -1,6 +1,6 @@
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 
-@-moz-document url("about:addons") {
+@-moz-document url-prefix("about:") {
 	#view-port-container{
 		  overflow-y: scroll!important;
   overflow-x: scroll!important;; 

@@ -3,7 +3,7 @@
 @-moz-document  domain("4chan.org"),
     domain("4channel.org") {
 		a.fileThumb,.postMessage,	div.file,div.file.video{float:left!important}
-			.fileThumb>img:not(.expanded-thumb){width:25vw!important;height:auto!important;}	img.countryFlag,img.extButton{width:5vw!important;height:auto!important;}
+			.fileThumb>img:not(.expanded-thumb){width:25vw!important;height:auto!important;}	img.extButton{width:5vw!important;height:auto!important;}
     	div.image-expanded>img,	div.image-expanded,video.expandedWebm {
     		max-width: 100vw!important;
 				max-height:100vh!important;
@@ -17,8 +17,7 @@
         ;;}
     	div.fileText>a[title]::after {  font-size-adjust: initial!important;;  
              color:lightgreen!important;
-            user-select: all!important;;
-    		word-wrap: break-word!important;
+           		word-wrap: break-word!important;
     		
     		content: " " attr(title);
 			}

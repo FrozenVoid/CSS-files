@@ -1,0 +1,9 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("w3schools.com") {
+	a[href*="shop.w3"],.w3schools-logo,#theworldsgreatest{display:none!important;}
+	.w3-light-grey,.w3-white{	color:yellow!important;;}
+	html,body,body *,div[id],.w3-row,.w3-light-grey ,#right,.w3-white{background:none!important;
+	
+		;background-color: black!important;}
+}

@@ -1,0 +1,25 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document  domain("4chan.org"),
+    domain("4channel.org") {
+			div.file,div.file.video{float:left!important}
+a.fileThumb,
+    	div.image-expanded>img,	div.image-expanded,video.expandedWebm {
+    		max-width: 100vw!important;
+				max-height:100vh!important;
+    		width: 100%!important;
+    		height: auto!important;
+			
+			}
+			/*Full file titles using pseudoelements*/
+        div.fileText,div.fileText>a{white-space:pre-wrap!important;
+       display:inline!important;max-width:none!important;
+        ;;}
+    	div.fileText>a[title]::after {  font-size-adjust: initial!important;;  
+             color:lightgreen!important;
+            user-select: all!important;;
+    		word-wrap: break-word!important;
+    		word-break: break-word 	!important;
+    		content: " " attr(title);
+			}
+}

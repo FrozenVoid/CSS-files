@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("livescience.com") {
-/*set noscript ->no meta redirects(anti-adblock)*/
-	body>div:first-child{display: none!important;}
-	body *{max-width:100vw!important;margin: 0!important;}
+/*no meta redirects(anti-adblock)*/
+	body>div:first-child,.lazy-image-van ,.affiliateDisclaimer{display: none!important;}
+	body *,#content{max-width:100vw!important;width:100%!important;margin: 0!important;}
 }

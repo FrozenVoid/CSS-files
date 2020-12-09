@@ -6,7 +6,7 @@
 }
 
 @-moz-document url-prefix("https://news.ycombinator.com/") {
-	td[colspan='2']{display:none!important;}
+	td[colspan='2'],.ind{display:none!important;}
 	
 	.comment,.default,.athing{float:left;max-width:95%!important;width:95%!important}
 	.comment .commtext{width:100%!important;white-space:pre-wrap!important;}

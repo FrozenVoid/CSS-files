@@ -7,6 +7,6 @@
 	#include,#url-form-wrap,#include .url-text{
 	background: none!important;background-color: black!important;color:orange!important;}
   
- html>body>#include>#holder>	#logo-holder,html>body>#psc_report-button,html>body>#psc_hideForm,html>body>div>#footer,html>body>div>#header,html>body>div>#main>*:not(.visual ) *,html>body>div>#main>.visual>*:not(.area ),
+ html>body>#include>#holder>	#logo-holder,#prxVpn1,html>body>#psc_report-button,html>body>#psc_hideForm,html>body>div>#footer,html>body>div>#header,html>body>div>#main>*:not(.visual ) *,html>body>div>#main>.visual>*:not(.area ),
 	html>body>div>#main>.visual>.area >*:not(.wrap ),html>body>div>#main>.visual>.area >.wrap >*:not(.url-form ){display:none!important;}
 }

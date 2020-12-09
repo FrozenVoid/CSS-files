@@ -1,0 +1,9 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("medium.com") {
+  *{background-color: black!important;
+	position:relative!important;max-width:100vw!important;width:100%!important;height:auto!important;;margin:0!important;padding:0!important;}
+
+	
+	
+}

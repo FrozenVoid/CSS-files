@@ -2,6 +2,8 @@
 
 @-moz-document domain("lite.duckduckgo.com") {
 	.extra,body>.header{display: none!important;}
+	form{border:0.25vw solid green !important;
+;}
 	.filters>select,.submit{width:30%!important;display: inline!important;}
 	.query,body,form{max-width:100%!important;width:100%!important;margin:0!important;padding:0!important;;}
 	

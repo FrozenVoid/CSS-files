@@ -1,0 +1,7 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("beside.media") {
+	header{position:relative!important;}
+	*{max-width:100vw!important;
+		width:auto!important;}
+}

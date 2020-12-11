@@ -3,7 +3,7 @@
 /*scaled tab and file icons, without rext*/
   
 .js-repo-nav>ul>li{max-width:10vw!important;overflow:hidden;
-}
+	}.UnderlineNav-body>*{width:5vw!important;}
 	.avatar{max-width:2vw!important;max-height:2vw!important;}
   .js-repo-nav>ul>li span[data-content]{display:none}
     .UnderlineNav-body>li.d-flex>a,.inline-form>.btn-octicon{
@@ -16,5 +16,5 @@
   color:red!important;}
    .UnderlineNav-body> li.d-flex>a[data-tab-item="issues-tab"]>span[title]{
      color:yellow!important;}
-  
+	
 }

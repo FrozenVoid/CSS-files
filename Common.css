@@ -1,0 +1,8 @@
+
+@-moz-document url-prefix("http") {
+	body *:only-child{left:0%!important;right:0%!important;}
+	html,body,body *{padding:0!important;margin:0!important;
+		max-width:100%!important;width: auto!important;
+	height:auto!important;}
+	svh,img{max-width:auto!important	}
+}

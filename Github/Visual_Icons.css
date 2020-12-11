@@ -4,6 +4,7 @@
   
 .js-repo-nav>ul>li{max-width:10vw!important;overflow:hidden;
 }
+	.avatar{max-width:2vw!important;max-height:2vw!important;}
   .js-repo-nav>ul>li span[data-content]{display:none}
     .UnderlineNav-body>li.d-flex>a,.inline-form>.btn-octicon{
     transform:scale(2)!important;

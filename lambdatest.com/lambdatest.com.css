@@ -1,0 +1,7 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("lambdatest.com") {
+	#navbar,#navbar *,.collapse>*,.navbar-collapse,.tagline{position: static!important;}
+	.cookiesdiv{display: none!important;}
+	#primary,#primary> *,#primary> *>div,#primary> *>*>div,.container{max-width: 100%!important;margin: 0!important;padding: 0!important;;width: 100%!important;}
+}

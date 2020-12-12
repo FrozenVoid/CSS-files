@@ -1,0 +1,7 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("systutorials.com") {
+	#main,#primary,#content,#content *{max-width:100%!important;padding: 0!important;margin: 0!important;}
+	#ez-toc-container{max-width:100%!important;position: static!important;float: none!important;;margin:auto!important;;}
+	p>img{display: none}
+}

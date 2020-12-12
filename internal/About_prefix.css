@@ -1,7 +1,9 @@
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 
 @-moz-document url-prefix("about:") {
-	#view-port-container{
+	spacer{display:none}
+	*,radiogroup,radio{font-size:1vw!important;margin:0!important;padding:0!important;}
+	#view-port-container,#search-view{
 		  overflow-y: scroll!important;
   overflow-x: scroll!important;; 
 		overflow: scroll!important;}

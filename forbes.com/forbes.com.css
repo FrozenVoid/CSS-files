@@ -1,0 +1,8 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("forbes.com") {
+	.article-sharing,.article-footer,.right-rail{display:none!important}
+	header.universal-header{position:relative!important;max-width:90vw!important;}
+	div.article-wrapper{display:block!important;}
+	div.body-container,div.body-container *,.article-wrapper{max-width: 100%!important;width: 100%!important;height:auto!important;;margin: 0!important;padding: 0!important;justify-content: normal!important;}
+}

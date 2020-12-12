@@ -1,30 +1,16 @@
 
 
 
-/*  Firefox internals
-menu,menupopup
-,body,body>*,body>*>*,
-body>*>*,div[id],div[id]> ,menupopup*/
-a{color:yellow!important;
-	background-color: black!important;;}
+a{color:yellow!important;	}
 
-
- *{
-	 background-color: transparent!important;
- font-size: 0.7cm !important;
-	 --bg-gradient:black!important;
-   line-height: 0.9cm!important;
-  ;;color:orange!important;;}
-
-
-window,menu,html,tree,treechildren,body,menupopup,keyset,div,deck,deck *, span,p,blockquote{
-  --bg-gradient:black!important;
- background-color: transparent!important;
-	color:orange!important;
-  ;}
-/*  */
-html,body,window,menupopup
+html,window
 {  background-color:black!important;; 
   background:none!important;
   color:orange!important;;}
+
+ html *,window *{
+	 background-color: transparent!important;
+ 	 --bg-gradient:black!important;
+  ;;color:orange!important;;}
+
 

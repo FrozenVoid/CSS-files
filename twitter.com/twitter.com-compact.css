@@ -1,0 +1,9 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("twitter.com") {
+	[data-testid="primaryColumn"]> *>div{position:relative!important;}
+	[aria-label="Sign up"],[data-testid="sidebarColumn"],[role="heading"],header,#layers{display:none!important;}
+  img,[aria-label="Image"]{opacity:1!important;max-height:none!important;width:100%!important;height:auto!important;max-width:100%!important;
+	overflow:scroll!important;}
+	main,main>*,section,section div>img, [data-testid="primaryColumn"]{max-height:none!important;;height:auto!important;width:100%!important;;max-width:100%!important;margin: 0!important;padding: 0!important;}
+}

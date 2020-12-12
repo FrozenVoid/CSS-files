@@ -1,0 +1,7 @@
+
+@-moz-document domain("rosettacode.org"){
+	 *{padding:auto!important;margin:auto!important;
+		max-width:100%!important;width: auto!important;
+	height:auto!important;}
+	svg,img{max-width:none!important	}
+}

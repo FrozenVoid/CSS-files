@@ -1,0 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("alternativeto.net") {
+	
+	main >*,section>*{max-width: 100%!important;width: 100%!important;height:auto!important;}
+}

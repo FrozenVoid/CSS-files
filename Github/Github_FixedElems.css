@@ -1,0 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("github.com") {
+    div.js-position-sticky,div[class*="-sticky"],div.sticky-content{position: static!important;}
+    .box-shadow{display:none!important;}
+}

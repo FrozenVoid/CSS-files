@@ -1,0 +1,8 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("codeproject.com") {
+	[aria-label="cookieconsent"]{display:none!important;}
+	.container-content-wrap,.article-container,.fixed{max-width: 100%!important;width: 100%!important;
+	}
+	div[style*="position: fixed;"]{position: static!important;}
+}

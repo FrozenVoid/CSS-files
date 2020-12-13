@@ -1,8 +1,8 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
-
-	.clearfix,.container-xl,.container-lg,textarea,.commit-form *,.offset-lg-1,.float-left{margin:0!important;max-width:100%!important;padding:0!important;
+	.float-left{height:auto!important;}
+	.clearfix,.container-xl,.container-lg,textarea,.commit-form *,.offset-lg-1{margin:0!important;max-width:100%!important;padding:0!important;
 		width:100%!important;height:auto!important;}
 	
 	.col-md-3{max-width: 25vw!important;z-index:400!important;background-color:black!important;;}

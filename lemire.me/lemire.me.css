@@ -1,5 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("lemire.me") {
-	*{max-width: none!important;margin:0!important;padding:0!important;;}
+	html,body,body>*,body>*>*,body>*>*>*,#page,#comments >*,.post,.comment,.comment-body,.entry-content,.comment-content,.widget,
+	#recentcomments{overflow:visible!important;max-width: 100%!important;margin:0!important;padding:0!important;;}
+
 }

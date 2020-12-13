@@ -1,0 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("stackexchange.com")  {
+	#js-gdpr-consent-banner{display: none!important;}
+	.container,.container *{max-width:100%!important;margin:0!important;}
+}

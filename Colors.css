@@ -1,17 +1,17 @@
 menupopup,menupopup *{ font-size:0.8cm!important;
 line-height:1cm!important;}
 
-a{color:yellow!important;	}
-
-html,window
-{  background-color:black!important;; 
-  background:none!important;
-	
-  color:orange!important;;}
-::selection{color: red!important;}
  html *,window *{
 	 background-color: transparent!important;
  	 --bg-gradient:black!important;
   ;;color:orange!important;;}
+
+html,window
+{  background-color:black!important;; 
+  background:;none!important
+	
+	color:orange!important;;}
+a{color:yellow!important;	}
+::selection{color: red!important;}
 
 

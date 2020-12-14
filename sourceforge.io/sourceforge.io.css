@@ -1,0 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("sourceforge.io") {
+	.container,#md-contents{max-width: 100%!important;width: 100%!important;}
+	.fixed-top,.sidebar{position: static!important;}
+}

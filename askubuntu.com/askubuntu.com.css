@@ -1,8 +1,0 @@
-@namespace url(http://www.w3.org/1999/xhtml);
-
-@-moz-document domain("askubuntu.com") {
-	._fixed{position: static!important;}
-	[aria-label="notice-message"],
-	#js-gdpr-consent-banner{display: none!important;}
-	.container,.container *{max-width: 100%	!important;}
-}

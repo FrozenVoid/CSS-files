@@ -2,5 +2,5 @@
 
 @-moz-document domain("reuters.com") {
   nav{position: relative!important;padding-bottom:10vh}
-  .wrap, .container,.col-10,.col-4,section{width:100%!important;}
+  .wrap, .container,.col-10,.col-4,section{width:100%!important;max-width: 100%!important;}
 }

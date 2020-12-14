@@ -1,0 +1,10 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("accuweather.com") {
+	#privacy-policy-banner{display: none!important;}
+	.two-column-page-content,.page-subnav,.header-inner{max-width: 100%!important;margin:0!important;}
+	.nfl-header{position:static!important;}
+	.subnav{min-height:10vw!important;
+		.search-form>input,.searchbar-inner,.pull-right,.nfl-header .header-inner .pull-right{float:none!important;
+			margin: 0!important;min-width: 40vw!important;}
+}

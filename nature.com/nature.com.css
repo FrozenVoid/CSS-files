@@ -1,0 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("nature.com") {
+	body>*{max-width: 100%!important;margin: 0!important;font-size:2vw!important;}
+	main{width:100%!important;}
+}

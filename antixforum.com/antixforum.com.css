@@ -1,0 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("antixforum.com") {
+	.element-is-sticky{position: static!important;}
+	body *{max-width: 100%!important;margin:0!important;}
+}

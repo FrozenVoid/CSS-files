@@ -1,0 +1,7 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("vgmusic.com") {
+	*{background: none!important;}
+	td[align="center"][valign="middle"]{display: none!important;}
+	td[style^="line-height:88%;"][align="center"]{display: none!important}
+}

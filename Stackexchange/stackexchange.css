@@ -1,7 +1,8 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document domain("stackexchange.com"),domain("mathoverflow.net"),domain("serverfault.com"),domain("stackoverflow.com"),domain("superuser.com"),domain("askubuntu.com")  {
+@-moz-document  domain("stackexchange.com"),domain("stackapps.com"),domain("mathoverflow.net"),domain("serverfault.com"),domain("stackoverflow.com"),domain("superuser.com"),domain("askubuntu.com")  {
 	.top-bar__network,._fixed{position: static!important;}
 	#js-gdpr-consent-banner,.js-dismissable-hero{display: none!important;}
 	.container,.container *{max-width:100%!important;margin:0!important;}
+	div.cp{max-width:10vw!important;display: block!important;}
 }

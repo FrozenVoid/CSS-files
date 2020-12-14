@@ -1,8 +1,9 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("sourceforge.net") {
-	li.nel{display: none}
- .email-body,.email-body *,pre{width:100%!important;overflow:visible!important;white-space:normal!important;background-color: black!important;}
+	.stuck{position: static!important;}
+	li.nel,#newsletter-floating{display: none}
+ .email-body,.email-body *,pre,section{max-width:100%!important;width:100%!important;overflow:visible!important;white-space:normal!important;background-color: black!important;}
 	*{background-color: black!important;}
 
 }

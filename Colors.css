@@ -8,7 +8,7 @@ html,window
   background:none!important;
 	
   color:orange!important;;}
-
+::selection{color: red!important;}
  html *,window *{
 	 background-color: transparent!important;
  	 --bg-gradient:black!important;

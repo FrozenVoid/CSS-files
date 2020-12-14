@@ -1,0 +1,11 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("modarchive.org") {
+	.home-page-welcome{display:none}
+	body>*{width:100%!important;height: auto!important;}
+	.minibox{position: static!important}
+		.mod-page-instrument-text{border:0.25vw solid yellow!important;}
+	*{background: none!important;}
+	pre:empty{display:none!important;}
+	.bgmenu >*{min-width:20vw!important;margin: auto!important;display: inline!important;}
+}

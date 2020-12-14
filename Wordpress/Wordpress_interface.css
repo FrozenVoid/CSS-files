@@ -1,6 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("wordpress.com") {
-	#access .menu-header, div.menu, #colophon, #branding, #main, #wrapper{
-	width:100%!important;}
+	#eu-cookie-law{display: none!important;}
+	#access .menu-header,body div,container-fluid div,div.menu,#content *,primary, #colophon,#page-site *,#page-site>.site-inner, #branding, #main, #wrapper{
+		width:100%!important;max-width:100%!important;margin: 0!important;padding: 0!important;}
 }

@@ -1,0 +1,7 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("aljazeera.com") {
+	.header-is-sticky{position: static!important;}
+	.container,.container >*{margin: 0!important;display:block!important;}
+	 *{max-width: 100%!important;}
+}

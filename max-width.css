@@ -2,4 +2,7 @@
 
 @-moz-document url-prefix("http") {
 	*{max-width:100%!important;}
+	html,body,div[id]{max-width: 100%!important;  max-height: none!important;position:static!important;margin:0!important;padding:0!important;}
+	
+	
 }

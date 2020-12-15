@@ -1,0 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("sputniknews.com") {
+	.l-maincolumn{width: 80vw!important;}
+
+}

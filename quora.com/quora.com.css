@@ -2,11 +2,18 @@
 
 @-moz-document domain("quora.com") {
 	.q-fixed{position: static!important;}
-	.dialog_wrapper,.vertical_alignment_wrapper{display:none!important}
+	.dialog_wrapper,img[src*="quoracdn"],.qu-overflow--hidden,.qu-height--12,.vertical_alignment_wrapper,.ad
+{display:none!important;}
+
+	
+	
 	*{transform:unset!important;overflow:visible!important;
 	pointer-events: unset!important;filter:unset!important;
 			max-width:100%!important;
 	}
-	body div{width:100%!important;;display: block!important;}
+	
+	
+	body div,body span,.qu-display--none{width:100%!important;height:auto!important;;display: block!important;}
+	img{max-height:50%!important;}
 	[class*="scroll"]{height:auto!important;}
 }

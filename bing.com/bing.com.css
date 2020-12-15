@@ -2,5 +2,5 @@
 
 @-moz-document domain("bing.com") {
 	#b_opalpers{display: none!important;}
-	main>*{width:100%!important;height:auto!important;margin: 10vw 0vw 10vw 0vw!important;padding:0!important;}
+	main>*{width:100%!important;height:auto!important;margin: 0 !important;padding:0!important;}
 }

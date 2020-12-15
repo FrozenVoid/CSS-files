@@ -1,9 +1,9 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("youtube.com") {
-	
+	*{font-size:0.6cm!important;line-height:0.8cm!important;}
 	#overlays,#overlays *{
-		background-color: transparent!important;font-size:1.0em!important;;color:orange!important;}
+		background-color: transparent!important;;color:orange!important;}
 	#masthead-container{position:relative!important;}
 	#items{	counter-reset: cnt;}
 	ytd-compact-video-renderer:after{

@@ -1,0 +1,12 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("quora.com") {
+	.q-fixed{position: static!important;}
+	.dialog_wrapper,.vertical_alignment_wrapper{display:none!important}
+	*{transform:unset!important;overflow:visible!important;
+	pointer-events: unset!important;filter:unset!important;
+			max-width:100%!important;
+	}
+	body div{width:100%!important;;display: block!important;}
+	[class*="scroll"]{height:auto!important;}
+}

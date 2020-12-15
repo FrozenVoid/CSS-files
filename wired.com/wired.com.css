@@ -2,7 +2,9 @@
 
 @-moz-document domain("wired.com") {
 	.persistent-top{position:static!important;max-width: 80vw!important;}
-	.grid-margins,.grid,.grid-layout--adrail .grid-layout__content{--grid-margin: 0rem!important;;grid-column-start: 1!important;grid-column-end:-1!important;;
+	.grid-margins,header,.grid,.grid-layout--adrail .grid-layout__content{--grid-margin: 0rem!important;;grid-column-start: 1!important;grid-column-end:-1!important;;
 ;margin:0!important;padding:0!important;}
-	.content-background *,.article__body,.article__body * {max-width:100%!important;width:100vw!important;margin:0!important;padding:0!important;;;}
+	.content-background *,header *,.article__body,.article__body * {max-width:100%!important;width:100vw!important;margin:0!important;padding:0!important;display:block!important;;;}
+	.ad{display: none!important;}
+
 }

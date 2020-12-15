@@ -1,6 +1,5 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("youtube.com") {
-
-	#masthead-ad{display:none!important;}
+[alert-style="ALERT_TYPE_INFO"]	,#masthead-ad{display:none!important;}
 }

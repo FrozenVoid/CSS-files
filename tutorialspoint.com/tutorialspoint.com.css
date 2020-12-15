@@ -1,0 +1,9 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("tutorialspoint.com") {
+	#google-top-ads,.mini-logo{display: none!important;}
+	.tutorial-content{width:auto!important;;}
+	.tutorial-toc,.mui-panel{width:100%!important;margin-top:10vw!important;display:inline!important;}
+	.mui-panel a,.tutorial-toc li{display: inline!important;}
+
+}

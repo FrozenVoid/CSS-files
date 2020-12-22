@@ -1,0 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("commondreams.org") {
+	#header-container{position: relative!important;max-height: 10vw!important;}
+	.l-over-branding,.cta-sidebar-block{display: none!important;}
+}

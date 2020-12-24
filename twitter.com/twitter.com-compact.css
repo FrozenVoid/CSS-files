@@ -5,5 +5,5 @@
 	[aria-label="Sign up"],[data-testid="sidebarColumn"],[role="heading"],header,#layers,[aria-roledescription="carousel"]{display:none!important;}
 	  img[class^='css'],div>div[aria-label="Image"]{opacity:1!important;max-height: none!important;;width:100%!important;height:auto!important;max-width:100%!important;
 			overflow:scroll!important;}
-	main div[class^='css']{max-height:none!important;max-width:100%!important;width:100%!important;}
+	main div[class^='css']:only-child,main>div,main>div>div,main>div>div>div,main>div>div>div>div{max-height:none!important;max-width:100%!important;width:100%!important;}
 }

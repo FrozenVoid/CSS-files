@@ -2,7 +2,7 @@
 
 @-moz-document domain("en.wikipedia.org") {	
 	.mw-body{padding:0!important;} 
-	#mw-panel{z-index:-100!important;}
+
 	#footer-info-copyright{display: none!important;}
 	#mw-data-after-content,#bodyContent{width:auto!important;
 		margin:auto!important;padding:0!important;}

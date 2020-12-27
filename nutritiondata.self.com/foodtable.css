@@ -1,0 +1,9 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("nutritiondata.self.com") {
+	body> *,body>div#main >*,body>div#main,div[id],fieldset[id],fieldset  div,.padBox,#content>*,body,body>*>*{width: 100%!important;max-width:100%!important;}
+	table{width:100%!important;}
+	div.left[class^='nf']{width:auto!important;}
+	
+
+}

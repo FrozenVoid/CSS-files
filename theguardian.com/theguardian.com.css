@@ -1,7 +1,8 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("theguardian.com") {
-	header{display: none!important;}
+	.new-header__logo,#bottom-banner,footer{display: none!important;}
+	.fc-container__inner,body,html, .facia-container__inner, .fc-container__pagination, .index-page-header{margin:0!important;max-width:100%!important;;}
 	body>div>div,body>div,body>div>div section{max-width:100%!important;height:100%!important;}
-	body>section p,body>section main,body>section span,body>section div,body>section{display:block!important;height:auto!important;width:100%!important;max-width: 100%	!important;padding: 0!important;}
+	body>section p,body>section main,body>section span,body>section div,body>section{display:block!important;height:auto!important;width:100%!important;max-width: 100%	!important;margin:auto!important;padding: auto!important;}
 }

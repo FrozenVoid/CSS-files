@@ -2,7 +2,7 @@
 
 @-moz-document domain("wccftech.com") {
 	header{position: static!important;}
-	section.content{width:100%!important;}
-	aside.sidebar{left:100vw!important;float:none!important;}
-	body main,p{max-width: 100%!important;width: 100%!important;margin:0!important;padding: 0!important;}
+	.archive section.content{width:85vw!important;}
+
+	body main,p,section{max-width: 100%!important;width: 100%!important;margin:0!important;padding: 0!important;}
 }

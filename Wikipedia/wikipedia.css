@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("en.wikipedia.org") {	
-	.mw-body{padding:0!important;} 
+	#mw-panel,.mw-body{padding:0!important;padding-left:0px!important;width:auto!important;} 
 
 	#footer-info-copyright{display: none!important;}
 	#mw-data-after-content,#bodyContent{width:auto!important;

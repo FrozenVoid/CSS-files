@@ -1,5 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("cnn.com") {
-	.pg-wrapper div{max-width:100%!important;}
+	
+	.owl-carousel{display: none!important;}
+	.pg-wrapper div{padding:0!important;max-width:100%!important;}
 }

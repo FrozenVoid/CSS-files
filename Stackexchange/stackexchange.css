@@ -4,6 +4,7 @@
 	.top-bar__network,._fixed{position: static!important;}
 	#js-gdpr-consent-banner,.js-dismissable-hero,#left-sidebar{display: none!important;}
 	.container,.container *{max-width:100%!important;margin:0!important;}
+	.fw-wrap.grid{display: block!important;}
 	div.cp{max-width:10vw!important;display: block!important;}
-	#mainbar,#sidebar{width:100vw!important;}
+	#mainbar,#sidebar,#content{width:100vw!important;}
 }

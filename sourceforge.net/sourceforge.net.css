@@ -3,11 +3,12 @@
 
 
 @-moz-document domain("sourceforge.net") {
-	.stuck,.sticky,.position-right{position: static!important;}
+	.stuck,.sticky{position:static!important;}.position-right{;display:none!important;;}
 	li.nel,#newsletter-floating,#code-art-wrapper,section.audience,.intro h1,.intro h2,.sf-logo,#nels,.copyright-notice{display: none!important;}
 		form,input{border:0.25vw solid yellow!important;}
 	#content_base div,
 	.email-body,.email-body *,#md-contents,pre,section,body,body>*,#pg_index>*,#pg_index  div.row,form{max-width:100%!important;width:auto!important;overflow:visible!important;white-space:normal!important;background-color: black!important;}
 	*{background-color: black!important;}
+	
 
 }

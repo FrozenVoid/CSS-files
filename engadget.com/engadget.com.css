@@ -1,0 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("engadget.com") {
+	*{max-width: 100%!important;width:auto!important;;display: inline-block!important;}
+	style,script,figure{display: none!important;}
+}

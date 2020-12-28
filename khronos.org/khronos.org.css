@@ -1,0 +1,8 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("khronos.org") {
+	.d-header-wrap{position:static!important;}
+	div[id]{display:contents!important}
+	.regular,.clearfix,.topic-body,.container,.wrap,.boxed,section,article{max-width: 100%!important;width:100%!important;margin:0!important;padding: 0!important;
+	min-height:none!important;}
+}

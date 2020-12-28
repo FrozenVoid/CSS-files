@@ -1,0 +1,5 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("doom9.org") 
+	{tr[valign='top']>td.alt2 a>img{width:100%!important;height: 100%!important;}
+		a[rel='nofollow']>img,img.inlineimg{min-height:5vh!important;}	body>a[name='top']+table[align='center']:first-of-type,#collapseobj_forumrules,.smallfont[align='center']{display: none!important;}
+}

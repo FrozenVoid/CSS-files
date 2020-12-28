@@ -3,7 +3,7 @@
 
 
 @-moz-document domain("sourceforge.net") {
-	.stuck{position: static!important;}
+	.stuck,.sticky,.position-right{position: static!important;}
 	li.nel,#newsletter-floating,#code-art-wrapper,section.audience,.intro h1,.intro h2,.sf-logo,#nels,.copyright-notice{display: none!important;}
 		form,input{border:0.25vw solid yellow!important;}
 	#content_base div,

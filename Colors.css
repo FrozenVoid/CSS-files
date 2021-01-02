@@ -1,17 +1,16 @@
-menupopup,menupopup *{ font-size:0.8cm!important;
+menupopup,menupopup *,menutext{ font-size:0.8cm!important;
 line-height:1cm!important;}
-html *,window *,body
+html *,window *
 {  background-color:transparent!important;; 
   
 		color:orange!important;;}
 
 a{color:yellow!important;	}
- html ,window{
+ html ,window,body,tree,deck,.navbar-inner{
 	 background-color: black!important;
  	background:black!important;
 	 --bg-gradient:black!important;
   ;;color:orange!important;;}
-
 
 
 

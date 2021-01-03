@@ -1,0 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("britannica.com") {
+	html *{max-width:100%!important;}
+	nav *::before{display:none!important;}
+}

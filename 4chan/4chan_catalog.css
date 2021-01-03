@@ -3,7 +3,7 @@
 @-moz-document  domain("4chan.org"),
     domain("4channel.org") {
 			#threads{margin:0!important;padding:0!important;}
-			.party-cnt{display:contents!important;}
+			.party-cnt,.teaser{display:contents!important;}
 			body.is_catalog #content #threads  div.thread>.meta{float:left!important;
 			border:0.25vw dotted red;margin-right:5vw!important;}
 			#threads>div.thread>a::before {

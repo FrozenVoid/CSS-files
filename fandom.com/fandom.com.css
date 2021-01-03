@@ -1,0 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("fandom.com") {
+  *{color:orange!important;background-color:black!important;}
+	body>div{width:100%!important;}
+}

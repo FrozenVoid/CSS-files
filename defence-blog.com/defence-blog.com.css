@@ -1,0 +1,5 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("defence-blog.com") {
+*{background-image: none!important;background-color: black!important;max-width:100%!important;}
+}

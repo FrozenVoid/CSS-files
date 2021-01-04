@@ -13,5 +13,5 @@
     	.flag::after {/*use title of flag instead of flag*/
     		content: attr(title);
 	}
-	img.countryFlag{transform:scale(3)}
+	img.countryFlag{transform:scale(2)}
 }

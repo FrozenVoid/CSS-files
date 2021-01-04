@@ -4,13 +4,13 @@
 	*{font-size:0.6cm!important;line-height:0.8cm!important;}
 	#overlays,#overlays *{
 		background-color: transparent!important;;color:orange!important;}
-	#masthead-container{position:relative!important;}
+	
 	#items{	counter-reset: cnt;}
 	ytd-compact-video-renderer:after{
 		color:azure;	 	counter-increment: cnt;content: counter(cnt);
 	}
-	/*Channel fixes */ 
-	#page-manager{margin-top:0vh!important;}
+	 
+
 	
 	h3.ytd-compact-video-renderer{color:yellow!important;}
 	paper-dialog{background-color:black!important;}

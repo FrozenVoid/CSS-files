@@ -1,0 +1,5 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("pcworld.com") {
+	body div,section{max-width: 100%!important;}
+}

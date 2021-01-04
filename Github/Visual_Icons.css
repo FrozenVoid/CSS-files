@@ -2,14 +2,13 @@
 @-moz-document domain("github.com") {
 
   
-.js-repo-nav>ul>li{max-width:10vw!important;overflow:hidden;
-	}.js-repo-nav>.UnderlineNav-body>*{width:5vw!important;}
+
 	.avatar,.avatar-user{max-width:10vw!important;max-height:10vw!important;}
   .js-repo-nav>ul>li span[data-content]{display:none}
-    .js-repo-nav>.UnderlineNav-body>li.d-flex>a,.inline-form>.btn-octicon{
+    .js-repo-nav>.UnderlineNav-body>li.d-flex>a,
+	.inline-form>.btn-octicon{
     transform:scale(2)!important;
-      border:0.1em solid aqua;
-      margin-bottom:1em!important;}
+           }
   .js-repo-nav>.UnderlineNav-body>li.d-flex>a[data-tab-item]>span[title]{transform:scale(0.5) !important;
   margin-left:-1vw!important;padding:0!important;
     text-decoration: overline!important;

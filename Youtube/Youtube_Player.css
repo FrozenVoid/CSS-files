@@ -5,9 +5,16 @@
 		color:yellow!important;
 		font-weight:lighter!important;
     text-shadow: none!important;}
-  /*Fix colors */
-  .ytp-chapter-container,.ytp-title,.ytp-title-link,.ytp-title-fullscreen{line-height: 1.5em !important;}
-  #movie_player,#player,#player *,.ytp-chrome-controls,.ytp-chrome-controls * {background-color: transparent!important;}
+  /*Fix colors  .ytp-chrome-controls,#movie_player,#player ,*/
+  .ytp-chapter-container,.ytp-title,.ytp-title-link,.ytp-title-fullscreen{line-height: 1.0em !important;}
+  
+	#player{z-index:30000!important;}
+	#player *,
+.ytp-cued-thumbnail-overlay,.ytp-cued-thumbnail-overlay *
+	{
+		background-color: transparent!important;
+		text-shadow: 2px 2px black!important;
+	}
 
 
 	.ytp-title,.ytp-title-text,

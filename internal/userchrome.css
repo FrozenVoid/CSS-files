@@ -1,0 +1,3 @@
+#identity-icon-label,#identity-box { /* Hides the protocol/padlock */
+  visibility: collapse !important;
+}

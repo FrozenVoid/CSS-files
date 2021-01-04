@@ -1,10 +1,11 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("pcpartpicker.com") {
-	.wrapper >*,body,html{max-width: 100%!important;width:100%!important;margin:0!important;}
-	.sidebar-content,.main-content,body div{padding: 0!important;}
+	.wrapper >*,body,html,section>*,input{;max-width: 100%!important;width:100%!important;margin:0!important;}
+	.sidebar-content,.main-content,body div{
+		background-color: transparent!important;padding: 0!important;}
 	input,.ui-slider-handle{color:green!important;
-    background-color:white!important;
+    background-color:black!important;
      border:2px solid gold!important;}
   .browseProducts{display: none!important;}
   .masthead .nav__bottom .nav__wrapper .nav__categories > li:last-of-type{

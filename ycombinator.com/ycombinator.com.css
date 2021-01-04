@@ -1,4 +1,3 @@
-
 @-moz-document url-prefix("https://news.ycombinator.com/news"),
 	url-prefix("https://news.ycombinator.com/best"){
 	
@@ -14,7 +13,7 @@
 	}
 	td{border:0.25vw solid red;
 	}
-	.default,.comment-tree,body,tr.athing{
+table,textarea,	.default,.comment-tree,body,tr.athing{
 	margin: 0.25vw 0.25vw 0.25vw 0.25vw!important;	max-width:100vw!important;border-top:2px solid red;
 		width:100%!important;}
 	

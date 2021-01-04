@@ -1,0 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("hothardware.com") {
+	.ad-sticky-slot{display: none!important;}
+	.container,.container *{max-width: 100%!important;}
+}

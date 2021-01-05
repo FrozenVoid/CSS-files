@@ -7,7 +7,7 @@
 			background-color: black!important;
 			margin-top: 		-7vh!important;border:0.2vh solid green;}
 	#button[aria-pressed="true"]{transform:scale(0.5)!important;;}
-	#button>yt-icon,yt-icon{transform:scale(2);}
+	
 	
 	
 }

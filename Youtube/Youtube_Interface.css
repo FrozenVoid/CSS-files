@@ -16,7 +16,7 @@
 
 	
 	h3.ytd-compact-video-renderer{color:yellow!important;}
-	paper-dialog,#contentContainer *{background-color:black!important;}
+	paper-dialog,#contentContainer *{z-index:40000!important;;background-color:black!important;}
 
   body,*[id],body>*,body>*>*,a,span.title,span.stat{
 		color:orange!important;

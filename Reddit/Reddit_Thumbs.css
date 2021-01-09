@@ -1,0 +1,18 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("reddit.com") {
+ video[playsinline="true"],.reddit-video-player,
+  .media-preview,.expando,.video-player,
+  .no-constraints-when-pinned{width:100%!important;
+		clear:none!important;
+    margin:0!important;
+background-color:transparent!important;
+  max-width:none!important;max-height: none!important;
+	}
+	video{background: initial!important;}
+	a.thumbnail:empty{display:none!important;}
+	 a.thumbnail{width:33vh!important;}
+  div.expando-button{outline: 0.2rem solid;
+		color:beige!important;}
+	a.thumbnail>img{width:100%!important;height:100%!important;}
+}

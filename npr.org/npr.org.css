@@ -1,0 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("npr.org") {
+	article,article p,#storytext{max-width:100%!important;
+		width:100%!important;padding: 0!important;margin: 0!important;}
+}

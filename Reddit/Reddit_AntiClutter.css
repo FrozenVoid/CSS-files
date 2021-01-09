@@ -1,0 +1,17 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("reddit.com") {
+#chat,#header-img,.give-gold-button,li.share,#chat,
+  a[href$="gilded/"],
+  .premium-banner-outer,.add-sr,form.logout,
+  .happening-now-wrap,.promoted,.sidebox>.spacer>.subtitle,
+  .linkinfo>.date>span:first-child,.sidebox.submit,.flairtoggle,
+	ul.buttons>li>a.embed-comment,li.crosspost-button,
+	.entry>.tagline>.score-hidden,.titlebox>.tagline,
+	.linkinfo>.shortlink,.redesign-beta-optin,
+	.awardings-bar,.rank,.midcol,form.usertext .usertext-edit,
+	.timeout-infobar,
+	li.reply-button,li.report-button,.footer-parent
+	{display: none!important;}
+
+}

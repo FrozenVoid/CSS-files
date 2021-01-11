@@ -9,7 +9,8 @@
 		color:orange!important;
 		background-color: transparent!important;}
 
-  
+  #overlays,#overlays *{
+		background-color: transparent!important;;color:orange!important;}
 	
 	
 }

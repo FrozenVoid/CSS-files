@@ -1,0 +1,11 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+/*Turn fixed elements into static parts*/
+@-moz-document domain("youtube.com") {
+    
+div#masthead-container.ytd-app{position:relative!important;}
+        
+    
+    
+    
+    
+}

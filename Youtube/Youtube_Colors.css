@@ -1,0 +1,15 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("youtube.com"){
+	h3.ytd-compact-video-renderer{color:yellow!important;}
+	paper-dialog,.ytd-popup-container,#contentContainer *{
+		z-index:40000!important;;background-color:black!important;}
+
+  body,*[id],body>*,body>*>*,a,span.title,span.stat{
+		color:orange!important;
+		background-color: transparent!important;}
+
+  
+	
+	
+}

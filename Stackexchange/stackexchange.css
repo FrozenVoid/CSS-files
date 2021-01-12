@@ -2,7 +2,8 @@
 
 @-moz-document  domain("stackexchange.com"),domain("stackapps.com"),domain("mathoverflow.net"),domain("serverfault.com"),domain("stackoverflow.com"),domain("superuser.com"),domain("askubuntu.com")  {
 	.top-bar__network,._fixed{position: static!important;}
-	#js-gdpr-consent-banner,.js-dismissable-hero,#left-sidebar{display: none!important;}
+	[aria-label="notice-message"],#js-gdpr-consent-banner,.js-dismissable-hero,.ps-sticky,
+	#left-sidebar{display: none!important;}
 	.container,.container *{max-width:100%!important;margin:0!important;}
 	.fw-wrap.grid{display: block!important;}
 	div.cp{max-width:10vw!important;display: block!important;}

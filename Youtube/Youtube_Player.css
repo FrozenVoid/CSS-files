@@ -6,8 +6,9 @@
 		font-weight:lighter!important;
     text-shadow: none!important;}
   /*Fix colors  .ytp-chrome-controls,#movie_player,#player ,*/
-  .ytp-chapter-container,.ytp-title,.ytp-title-link,.ytp-title-fullscreen{line-height: 1.0em !important;}
-  
+  .ytp-chapter-container,.ytp-title,.ytp-title-link,
+	.ytp-title-fullscreen{line-height: 1.0em !important;}
+	#player-theater-container *{max-height:100vh!important;}
 	#player{z-index:30000!important;}
 	#player *,
 .ytp-cued-thumbnail-overlay,.ytp-cued-thumbnail-overlay *

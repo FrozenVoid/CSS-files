@@ -3,7 +3,7 @@
  .md>textarea{width:200%!important;height:50vh!important;}
  .flat-list.buttons{margin-bottom:3vw!important;
 		display:inline!important;}
-  
+	a{background-color: black!important;}
   #header-bottom-left{margin-bottom:1em!important;height:1em!important;} 
   #header-bottom-right{
 		padding-top:0em!important;

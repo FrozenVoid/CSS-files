@@ -5,7 +5,7 @@
 
 	.filters>select{width:40%!important;display: inline!important;}
 
-	.query,body,form{max-width:100%!important;width:100%!important;margin:0!important;padding:0!important;;}
+	.query,body,form,tbody,table{max-width:100%!important;width:100%!important;margin:0!important;padding:0!important;;}
 .submit{float:right!important;;border:0.5mm solid red}
 	.query{max-width: 80vw!important;height:1.5em}
 	td:empty,td[valign='top']{max-width:0.1vw!important;}

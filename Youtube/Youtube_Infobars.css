@@ -1,11 +1,13 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("youtube.com") {
-#container.ytd-video-primary-info-renderer>.title{overflow:hidden!important;height:1em!important;}
+#container.ytd-video-primary-info-renderer>.title{
+	overflow:hidden!important;height:1em!important;}
 	
 		.ytd-video-primary-info-renderer #top-level-buttons{
 			background-color: black!important;
 			margin-top: 		-7vh!important;border:0.2vh solid green;}
+	#button{min-width:15vh!important;min-height:15vh!important;background-color:green!important;}
 	#button[aria-pressed="true"]{transform:scale(0.5)!important;;}
 	
 	

@@ -1,5 +1,5 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("ziglang.org") {
-    html,body,table {max-width:100%!important;}
+	html,body,table ,.container{max-width:100%!important;display: block!important;}
 }

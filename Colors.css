@@ -1,14 +1,22 @@
-menupopup,menupopup *,menutext{ font-size:0.8cm!important;
-line-height:1cm!important;}
+menupopup,menupopup *,deck,dialog,popupnotification,popup,menutext{ 
+	background-color:black!important;
+	font-size:0.5cm!important;
+line-height:0.75cm!important;}
 html *,window *
-{  background-color:transparent!important;; 
-  
-		color:orange!important;;}
+{ font-size:0.5cm!important;line-height:0.75cm!important;
+	background-color:transparent!important;; 
+	background-repeat: no-repeat!important;
+  		color:orange!important;;}
 
 a{color:yellow!important;	}
- html ,window,body,tree,deck,.navbar-inner{
+
+
+
+ html ,window,body,tree,deck,.navbar-inner,table,.table_top{
+	 
 	 background-color: black!important;
  	background:black!important;
+background-image:none!important;
 	 --bg-gradient:black!important;
   ;;color:orange!important;;}
 

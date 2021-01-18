@@ -6,15 +6,15 @@ html *,window *
 { font-size:0.5cm!important;line-height:0.75cm!important;
 	background-color:transparent!important;; 
 	background-repeat: no-repeat!important;
-	background: linear-gradient(10deg,black,black);
+
   		color:orange!important;;}
 
 a{color:yellow!important;	}
 
 
 
- html ,window,body,tree,deck,.navbar-inner,table,.table_top{
-	 
+ html ,window,body,tree,form,article,section,deck,.clearfix,.main,.navbar-inner,table,.table_top{
+	 	background: linear-gradient(10deg,black,black)!important;;
 	 background-color: black!important;
  	background:black!important;
 background-image:none!important;

@@ -1,8 +1,8 @@
 @namespace url(http://www.w3.org/1999/xhtml);
-
+/*buttons/icons/menus*/
 @-moz-document domain("youtube.com") {
 #container.ytd-video-primary-info-renderer>.title{
-	overflow:hidden!important;height:1em!important;}
+	overflow:hidden!important;;}
 	
 		.ytd-video-primary-info-renderer #top-level-buttons{
 			background-color: black!important;

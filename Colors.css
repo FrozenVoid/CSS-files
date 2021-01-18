@@ -6,6 +6,7 @@ html *,window *
 { font-size:0.5cm!important;line-height:0.75cm!important;
 	background-color:transparent!important;; 
 	background-repeat: no-repeat!important;
+	background: linear-gradient(10deg,black,black);
   		color:orange!important;;}
 
 a{color:yellow!important;	}

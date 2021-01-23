@@ -12,11 +12,11 @@
 }
 
 toolbarbutton.bookmark-item[type="menu"] .toolbarbutton-text {
-    width: auto;
+	width: 100%;
 }
 .toolbarbutton-icon, .toolbarbutton-1, .toolbarbutton-2, .toolbarbutton-3, 
 .toolbarbutton-1 *, .toolbarbutton-2 *, .toolbarbutton-3 * {
-    width:1em!important;height:1em!important}
+	width:1em!important;height:1em!important}
 toolbarbutton.bookmark-item[type="menu"] .toolbarbutton-icon[label]:not([label=""]) {
-    width: 0px !important;
+	width: 0px !important;
 }

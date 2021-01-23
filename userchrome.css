@@ -1,7 +1,22 @@
 #identity-icon-label,#identity-box { /* Hides the protocol/padlock */
   visibility: collapse !important;
 }
-/* Show the folder icon only if the label is blank */
+
+#context-sendpagetodevice, #context-sep-sendpagetodevice,
+#context-sendlinktodevice, #context-sep-sendlinktodevice,
+#context_sendTabToDevice, #context_sendTabToDevice_separator {
+  display: none !important;
+}
+:root {
+  --toolbarbutton-border-radius: 0px !important;
+}
+
+toolbarbutton.bookmark-item[type="menu"] .toolbarbutton-text {
+    width: auto;
+}
+.toolbarbutton-icon, .toolbarbutton-1, .toolbarbutton-2, .toolbarbutton-3, 
+.toolbarbutton-1 *, .toolbarbutton-2 *, .toolbarbutton-3 * {
+    width:1em!important;height:1em!important}
 toolbarbutton.bookmark-item[type="menu"] .toolbarbutton-icon[label]:not([label=""]) {
     width: 0px !important;
 }

@@ -1,7 +1,7 @@
 @-moz-document domain("reddit.com") {
   span.rank{outline: thick double #32a1ce;}
 	
-	a.bylink{ pointer-events: none!important;}
+	
  .md>textarea{width:200%!important;height:50vh!important;}
  .flat-list.buttons{margin-bottom:3vw!important;
 		display:inline!important;}

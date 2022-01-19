@@ -11,8 +11,9 @@ background-color:transparent!important;
 	}
 	video{background: initial!important;}
 	a.thumbnail:empty{display:none!important;}
-	 a.thumbnail{width:33vh!important;}
-  div.expando-button{outline: 0.2rem solid;
-		color:beige!important;}
+	 a.thumbnail{width:25vw!important;}
+  div.expando-button{width: 2cm !important;;
+		height:  2cm !important;;
+		border:3mm dotted!important;;}
 	a.thumbnail>img{width:100%!important;height:100%!important;}
 }

@@ -3,7 +3,7 @@
 @-moz-document domain("reddit.com") {
 #chat,[target="chat-app"],.author-tooltip__follow-container,#header-img,.give-gold-button,li.share,#chat,#header-bottom-right,
   a[href$="gilded/"],
-  .premium-banner-outer,.add-sr,form.logout,
+  .premium-banner-outer,
   .happening-now-wrap,.promoted,.sidebox>.spacer>.subtitle,
   .linkinfo>.date>span:first-child,.sidebox.submit,.flairtoggle,
 	ul.buttons>li>a.embed-comment,li.crosspost-button,

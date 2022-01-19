@@ -1,6 +1,6 @@
 @-moz-document domain("reddit.com") {
   span.rank{outline: thick double #32a1ce;}
-	
+	html *{font-size:1.1cm!important;}
 	
  .md>textarea{width:200%!important;height:50vh!important;}
  .flat-list.buttons{margin-bottom:3vw!important;
@@ -12,7 +12,8 @@
 		position:relative!important;}
   #sitetable,#sr-header-area,#header{ margin-top:1em!important; }
    
- .sr-list{height:100%!important;overflow:visible! important;
+ .sr-list{height:100%!important;
+	 overflow:visible! important;
     ;}
   .thing{border:1px solid lightgreen!important;margin:0!important;}
    div.usertext-buttons,.bottom-area{width:100%!important; }

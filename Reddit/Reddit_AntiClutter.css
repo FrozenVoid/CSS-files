@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("reddit.com") {
-#chat,#header-img,.give-gold-button,li.share,#chat,
+#chat,[target="chat-app"],.author-tooltip__follow-container,#header-img,.give-gold-button,li.share,#chat,#header-bottom-right,
   a[href$="gilded/"],
   .premium-banner-outer,.add-sr,form.logout,
   .happening-now-wrap,.promoted,.sidebox>.spacer>.subtitle,

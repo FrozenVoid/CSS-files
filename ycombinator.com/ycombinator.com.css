@@ -1,8 +1,11 @@
 
 @-moz-document domain("news.ycombinator.com"){
 
-	td:empty + .title,td.subtext > span.age:first-child,
-			td.subtext>a[href^="hide"]:last-child,span.rank{display: none!important;}
+	
+	td.subtext > span.age:first-child,
+			td.subtext>a[href^="hide"]:last-child,
+	td.subtext>a[href*="vouch"],
+	span.rank{display: none!important;}
 	
 
 

@@ -1,17 +1,26 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("reddit.com") {
-#chat,[target="chat-app"],.author-tooltip__follow-container,#header-img,.give-gold-button,li.share,#chat,#header-bottom-right,
+#chat,[target="chat-app"],
+	.author-tooltip__follow-container,
+	#header-img,.give-gold-button,
+	li.share,#chat,#header-bottom-right,
   a[href$="gilded/"],
   .premium-banner-outer,
-  .happening-now-wrap,.promoted,.sidebox>.spacer>.subtitle,
-  .linkinfo>.date>span:first-child,.sidebox.submit,.flairtoggle,
-	ul.buttons>li>a.embed-comment,li.crosspost-button,
-	.entry>.tagline>.score-hidden,.titlebox>.tagline,
+  .happening-now-wrap,.promoted,
+	.sidebox>.spacer>.subtitle,
+  .linkinfo>.date>span:first-child,
+	.sidebox.submit,.flairtoggle,
+	ul.buttons>li>a.embed-comment,
+	li.crosspost-button,
+	.entry>.tagline>.score-hidden,
+	.titlebox>.tagline,
 	.linkinfo>.shortlink,.redesign-beta-optin,
-	.awardings-bar,.rank,.midcol,form.usertext .usertext-edit,
-	.timeout-infobar,
-	li.reply-button,li.report-button,.footer-parent
+	.awardings-bar,.rank,
+		.timeout-infobar,
+	li.reply-button,li.report-button,
+	.footer-parent
 	{display: none!important;}
-
+	.clearleft,.subreddit .midcol,.midcol,.midcol .active{display:inline!important;
+		width:auto!important;min-width: none!important;}
 }

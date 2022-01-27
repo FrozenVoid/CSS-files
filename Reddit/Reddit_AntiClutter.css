@@ -4,7 +4,7 @@
 #chat,[target="chat-app"],
 	.author-tooltip__follow-container,
 	#header-img,.give-gold-button,
-	li.share,#chat,#header-bottom-right,
+	li.share,#chat,.clearleft,
   a[href$="gilded/"],
   .premium-banner-outer,
   .happening-now-wrap,.promoted,
@@ -21,6 +21,4 @@
 	li.reply-button,li.report-button,
 	.footer-parent
 	{display: none!important;}
-	.clearleft,.subreddit .midcol,.midcol,.midcol .active{display:inline!important;
-		width:auto!important;min-width: none!important;}
 }

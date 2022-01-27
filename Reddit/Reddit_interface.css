@@ -1,8 +1,5 @@
 @-moz-document domain("reddit.com") {
-  span.rank{outline: thick double #32a1ce;}
-	html *{font-size:1.1cm!important;}
-	
- .md>textarea{width:200%!important;height:50vh!important;}
+ .md>textarea{width:100vw!important;height:50vh!important;}
  .flat-list.buttons{margin-bottom:3vw!important;
 		display:inline!important;}
 	a{background-color: black!important;}
@@ -15,6 +12,15 @@
  .sr-list{height:100%!important;
 	 overflow:visible! important;
     ;}
+	.score{opacity:0.5!important;}
+	.midcol{overflow:visible!important;
+		position:relative;left:12em!important;
+			float:inline-start!important;
+		margin:0!important;
+			padding:0!important;
+		width:0px!important;
+		display:inline!important;}
+	.subreddit .midcol{width:auto!important;}
   .thing{border:1px solid lightgreen!important;margin:0!important;}
    div.usertext-buttons,.bottom-area{width:100%!important; }
  

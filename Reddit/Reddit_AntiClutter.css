@@ -10,7 +10,7 @@
   .happening-now-wrap,.promoted,
 	.sidebox>.spacer>.subtitle,
   .linkinfo>.date>span:first-child,
-	.sidebox.submit,.flairtoggle,
+	.flairtoggle,
 	ul.buttons>li>a.embed-comment,
 	li.crosspost-button,
 	.entry>.tagline>.score-hidden,
@@ -18,7 +18,6 @@
 	.linkinfo>.shortlink,.redesign-beta-optin,
 	.awardings-bar,.rank,
 		.timeout-infobar,
-	li.reply-button,li.report-button,
-	.footer-parent
+		.footer-parent
 	{display: none!important;}
 }

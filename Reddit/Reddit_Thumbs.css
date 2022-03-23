@@ -2,18 +2,23 @@
 
 @-moz-document domain("reddit.com") {
  video[playsinline="true"],.reddit-video-player,
-  .media-preview,.expando,.video-player,
-  .no-constraints-when-pinned{width:100%!important;
+  	.media-preview,.expando,.video-player,
+  .no-constraints-when-pinned{
+		width:100vw!important;
 		clear:none!important;
+		height:auto!important;
     margin:0!important;
 background-color:transparent!important;
   max-width:none!important;max-height: none!important;
 	}
+	iframe{overflow:visible!important;margin-left:-5em!important;
+		width:100vw!important;height:100vh!important;}
 	video{background: initial!important;}
 	a.thumbnail:empty{display:none!important;}
 	 a.thumbnail{width:25vw!important;}
   div.expando-button{width: 2cm !important;;
 		height:  2cm !important;;
 		border:3mm dotted!important;;}
+	.media-preview img,.media-preview-content{min-width:75vw!important;}
 	a.thumbnail>img{width:100%!important;height:100%!important;}
 }

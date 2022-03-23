@@ -1,10 +1,11 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("reddit.com") {
+	img,video{z-index: 9990!important;overflow:visible!important;}
  video[playsinline="true"],.reddit-video-player,
-  	.media-preview,.expando,.video-player,
+  	.media-preview,.expando,.crosspost-preview,.video-player,
   .no-constraints-when-pinned{
-		width:100vw!important;
+		max-width:95vw!important;
 		clear:none!important;
 		height:auto!important;
     margin:0!important;
@@ -12,13 +13,17 @@ background-color:transparent!important;
   max-width:none!important;max-height: none!important;
 	}
 	iframe{overflow:visible!important;margin-left:-5em!important;
-		width:100vw!important;height:100vh!important;}
+		width:auto!important;height:100vh!important;}
 	video{background: initial!important;}
 	a.thumbnail:empty{display:none!important;}
 	 a.thumbnail{width:25vw!important;}
   div.expando-button{width: 2cm !important;;
 		height:  2cm !important;;
 		border:3mm dotted!important;;}
-	.media-preview img,.media-preview-content{min-width:75vw!important;}
-	a.thumbnail>img{width:100%!important;height:100%!important;}
+	.media-preview img,
+	.media-preview-content{max-width:50vw!important;
+		margin:0!important;}
+	a.thumbnail>img{
+		width:100%!important;
+		height:auto!important;}
 }

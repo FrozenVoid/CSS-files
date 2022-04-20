@@ -1,5 +1,5 @@
 @namespace url(http://www.w3.org/1999/xhtml);
-
+/* https://www.reddit.com/r/modnews/comments/e8vl4d/announcing_the_crowd_control_beta/ */
 @-moz-document domain("reddit.com") {
 	.comment.collapsed .usertext,
 	.comment.collapsed .child,

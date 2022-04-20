@@ -1,0 +1,13 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("reddit.com") {
+	.comment.collapsed .usertext,
+	.comment.collapsed .child,
+	.comment.collapsed .buttons {
+	display:block!important;
+}
+.comment.collapsed .midcol,.comment.collapsed{
+	visibility:visible!important;;
+	height:auto!important;
+	}
+}
